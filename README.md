@@ -1,10 +1,11 @@
 DSASTUDY 📚
 https://docs.google.com/document/d/1uiz-vzixtnyBzakkyJwgZx40EkCq0nbJfQeaPwzKFTw/edit?tab=t.0
+DSASTUDY 📚
 
 A complete guide to important Data Structures and Arrays for coding interviews (FAANG, product-based companies, startups).
 
 🧱 Important Data Structures
-1. Arrays
+<details> <summary>1. Arrays</summary>
 
 Must Know: Traversal, Insertion, Deletion
 
@@ -20,7 +21,7 @@ Two Sum, Move Zeroes, Merge Sorted Arrays
 
 Concepts: Prefix sum, Sliding window
 
-2. Strings
+</details> <details> <summary>2. Strings</summary>
 
 Must Know: Palindrome check, Anagrams
 
@@ -34,7 +35,7 @@ Pattern Matching (KMP, Rabin-Karp basics)
 
 String compression, rotation
 
-3. Linked List
+</details> <details> <summary>3. Linked List</summary>
 
 Must Know: Singly, Doubly, and Circular Linked Lists
 
@@ -48,7 +49,7 @@ Middle element, Intersection point
 
 Merge two sorted lists
 
-4. Stacks
+</details> <details> <summary>4. Stacks</summary>
 
 Must Know: Implementation using array/linked list
 
@@ -64,7 +65,7 @@ Evaluate Postfix/Prefix
 
 Stock Span Problem
 
-5. Queues
+</details> <details> <summary>5. Queues</summary>
 
 Must Know: Normal Queue, Circular Queue, Priority Queue
 
@@ -76,7 +77,7 @@ Rotten Oranges (BFS)
 
 Sliding Window Maximum
 
-6. Trees
+</details> <details> <summary>6. Trees</summary>
 
 Must Know: Binary Tree & Binary Search Tree (BST)
 
@@ -94,7 +95,7 @@ Path Sum
 
 Serialize/Deserialize Tree
 
-7. Heaps (Priority Queues)
+</details> <details> <summary>7. Heaps (Priority Queues)</summary>
 
 Must Know: Min-Heap, Max-Heap
 
@@ -108,7 +109,7 @@ Merge K sorted lists
 
 Top K frequent elements
 
-8. Hashing (HashMap / HashSet)
+</details> <details> <summary>8. Hashing (HashMap / HashSet)</summary>
 
 Must Know: Counting frequency, duplicates
 
@@ -122,7 +123,7 @@ Longest consecutive sequence
 
 Group Anagrams
 
-9. Graphs
+</details> <details> <summary>9. Graphs</summary>
 
 Must Know: Representations: Adjacency List / Matrix
 
@@ -140,7 +141,7 @@ Minimum Spanning Tree (Prim’s, Kruskal’s)
 
 Detect cycles (directed/undirected)
 
-10. Recursion & Backtracking
+</details> <details> <summary>10. Recursion & Backtracking</summary>
 
 Must Know: Factorial, Fibonacci
 
@@ -152,7 +153,7 @@ N-Queens, Sudoku Solver
 
 Rat in a Maze, Word Search
 
-11. Dynamic Programming (DP)
+</details> <details> <summary>11. Dynamic Programming (DP)</summary>
 
 Must Know: Fibonacci, Knapsack, Subset Sum
 
@@ -166,7 +167,7 @@ Matrix Chain Multiplication
 
 Coin Change, Edit Distance
 
-12. Advanced / Optional
+</details> <details> <summary>12. Advanced / Optional</summary>
 
 Trie (prefix tree): Autocomplete, Word Search
 
@@ -176,8 +177,9 @@ Disjoint Set Union (DSU): Connected components
 
 LRU Cache: Using LinkedHashMap or DLL + HashMap
 
+</details>
 🧱 ARRAYS — Full Interview Guide
-1️⃣ Concepts & Theory
+<details> <summary>1️⃣ Concepts & Theory</summary>
 
 What is an Array?
 
@@ -202,7 +204,7 @@ Types of Arrays:
 
 Dynamic Array (Python List / C++ Vector) → Resizes automatically
 
-2️⃣ Problem Types (with Examples)
+</details> <details> <summary>2️⃣ Problem Types</summary>
 🟢 Basic Problems
 
 Find max and min element
@@ -315,7 +317,7 @@ Merge intervals
 
 Best time to buy & sell stock (multiple variants)
 
-🚀 Common Patterns / Tricks
+</details> <details> <summary>3️⃣ Common Patterns / Tricks</summary>
 Pattern	Where Used	Description
 Prefix Sum	Range queries, subarray sum	Precompute sums to answer queries fast
 Sliding Window	Fixed/variable length subarrays	Maintain a window of size K
@@ -324,3 +326,4 @@ Kadane’s Algo	Max subarray sum	Keep running sum with reset condition
 Binary Search	Sorted arrays	Divide and conquer for efficiency
 Hashing	Count / check presence	Use dict or map for O(1) lookups
 XOR Trick	Missing/duplicate number	XOR all elements cleverly
+</details>
