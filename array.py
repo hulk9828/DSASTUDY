@@ -30,7 +30,7 @@
 # we will use a loop to check if the string is a palindrome
 # if the string is empty or has one character, we will return true
 
-def is_palindrome(s:str)->bool:
+def is_palindrome(s:str)->str:
     print(s)
     ss = "".join(ch.lower() for ch in s if ch.isalpha())
     print(ss)
@@ -39,12 +39,12 @@ def is_palindrome(s:str)->bool:
     print(start,end,ss)
     while start<end:
         if ss[start] != ss[end]:
-            return False
+            return f"{ss} is not a palindrome"
         elif ss[start] == ss[end]:
             start+=1
             end-=1
     
-    return True
+    return f"{ss} is a palindrome"
 
 st= is_palindrome("A man, a plan, a canal: Panama")
 
